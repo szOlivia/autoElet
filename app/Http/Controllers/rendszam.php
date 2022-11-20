@@ -9,6 +9,7 @@ use Illuminate\Support\DB;
 class rendszam extends Controller
 {
     public function auto(){
-        
+        $auto = DB::select("SELECT * FROM autok");
+        return view("rendszam",[ "autok" => $autok]);
     }
 }
