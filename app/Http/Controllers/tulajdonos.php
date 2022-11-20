@@ -10,7 +10,7 @@ class tulajdonos extends Controller
 {
     public function tulajdonos_tabla(){
 
-      $tulajdonosok = DB::select("SELECT * FROM tulajdonos");
+      $tulajdonosok = DB::select("SELECT * FROM tulajdonosok WHERE 1");
         return view("tulajdonos",[ "tulajdonos" => $tulajdonosok]);
         
     }
