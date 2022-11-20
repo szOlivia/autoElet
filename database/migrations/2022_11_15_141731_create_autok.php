@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('autok', function (Blueprint $table) {
             $table->id("a_id");
-            $table->string("Tipusa",30);
-            $table->string("Szine", 20);
+            $table->string("tipusa",30);
+            $table->string("szine", 20);
         });
     }
 
