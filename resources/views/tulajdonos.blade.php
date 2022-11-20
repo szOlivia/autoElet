@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tulajdonos</title>
-</head>
-<body>
+@extends('layouts.master')
+@section('title','Főoldal')
+@section('content')
+     @include('menu')
         @include('menu')
             <div class="container">
                 <div class="row ">
@@ -20,14 +15,14 @@
                                     <th>Tulajdonjog kezdete</th>
                                     <th>Tulajdonjog vége</th>
                                 </tr>
-                                @foreach ($tulajdonosok as $item)
+                               @foreach ($tulajdonosok as $egytulaj)
                                 <tr>
-                                    <td>{{ $item->t_id}}</td>
-                                    <td>{{ $item->nev}}</td>
-                                    <td>{{ $item->tulajdonjog_kezdete}}</td>
-                                    <td>{{ $item->tulajdonjog_vege}}</td>
+                                    <td>{{ $egytulaj->t_id }}</td>
+                                    <td>{{ $egytulaj->nev }}</td>
+                                    <td>{{ $egytulaj->tulajdonjog_kezdete }}</td>
+                                    <td>{{ $egytulaj->tulajdonjog_vege }}</td>
                                 </tr>
-                                @endforeach
+                                @endforeach 
                             </table>
                         </div>
                     </div>    
@@ -35,5 +30,4 @@
             </div>    
         </div>
           
-</body>
-</html>
+        @endsection
