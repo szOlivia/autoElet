@@ -5,7 +5,7 @@
           <a class="nav-link" href="./">Aktuális</a>
         </li>
        <li class="nav-item">
-          <a class="nav-link" href="./homersekletek">Hőmérsékletek</a>
+          <a class="nav-link" href="./tulajdonos">Tulajdonos neve</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./terem-rogzites">Terem rögzítés</a>
