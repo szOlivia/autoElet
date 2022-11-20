@@ -2,19 +2,16 @@
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="./">Aktuális</a>
+          <a class="nav-link" href="./">Főoldal</a>
         </li>
        <li class="nav-item">
           <a class="nav-link" href="./tulajdonos">Tulajdonos neve</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./terem-rogzites">Terem rögzítés</a>
+          <a class="nav-link" href="./rendszam">Autó</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./homerseklet-rogzites">Hőmérséklet rögzítés</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./teremlista">Terem rögzités</a>
+          <a class="nav-link" href="./baleset">Balesetek</a>
         </li>
       </ul>
     </div>
