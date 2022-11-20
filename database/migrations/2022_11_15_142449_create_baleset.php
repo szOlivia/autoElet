@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('baleset', function (Blueprint $table) {
             $table->id("b_id");
-            $table->dateTime("idopont");
+            $table->dateTime("idopont", $precision = 0);
             $table->string("leiras",1000);
         });
     }
